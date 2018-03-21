@@ -2,7 +2,7 @@
   "name": "object-validation",
   "version": "1.0.1",
   "description": "validate objects",
-  "main": "./src/object-validation.js",
+  "main": "./dist/object-validation.js",
   "scripts": {
     "test": "NODE_ENV=test mocha --compilers js:babel-core/register './*.spec.js'",
     "build": "babel ./src --out-dir ./dist --source-maps --ignore spec.js"
